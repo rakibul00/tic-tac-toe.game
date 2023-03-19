@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto+Mono:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    padding: 20px 0px;
+    margin-right: 10px;
+}
+.box{
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.container .box:hover{
+    background-color: rgb(241, 224, 241);
+}
+.boxtext{
+    font-size: 5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.gameInfo{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 1.2rem;
+}
+.Info{
+    padding: 10px 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#reset{
+    width: 80px;
+    height: 50px;
+    border-radius: 9px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    
+}
+@media(max-width:767px){
+    #reset{
+        margin-left:220px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+}
+@media(max-width:896px){
+    #reset{
+        margin-left:220px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+}
+@media(max-width:414px){
+    #reset{
+        margin-left:220px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+}
+#reset:hover{
+    background-color: aquamarine;
+    transition: all 0.3s ease-in;
+}
+
+.imgBox img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    align-items: center;
+    
+}
+#allh1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.bt-0{
+    border-top: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
